@@ -2,8 +2,8 @@ $(document).on("ready",main);
 
 function main(){
     $("#members > ul li").hover(function(){
-        $("#members > ul li a div").addClass("font-white")
+        $(this).find("div").addClass("font-white");
     },function(){
-        $("#members > ul li a div").removeClass("font-white")
+        $(this).find("div").removeClass("font-white");
     })
 }
