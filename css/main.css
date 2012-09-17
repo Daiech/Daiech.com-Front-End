@@ -166,8 +166,37 @@ body > footer a:hover{
 .font-white{
     color: white;
 }
-
-
+#construction{
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color:  #11B0AB;
+    color: white;
+    font-family: sans-serif, Verdana;
+    left: 0;
+    line-height: 1.1em;
+    opacity: 0.7;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+/*    text-transform: uppercase;*/
+    top:250px;
+    width: 30px;
+}
+#construction a{
+    text-decoration: none;
+    color: white;
+}
+#construction:hover{
+    border-right: solid thin #000;
+    border-top: solid thin #000;
+    border-bottom: solid thin #000;
+    cursor: pointer;
+    opacity: 1;
+}
+#construction span{
+    display: block;
+    opacity: 1.0;
+}
 
 
 
