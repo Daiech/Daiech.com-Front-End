@@ -173,13 +173,13 @@ body > footer a:hover{
     color: white;
     font-family: sans-serif, Verdana;
     left: 0;
-    line-height: 1.1em;
+    line-height: 0.6em;
     opacity: 0.7;
     padding: 5px 0;
     position: absolute;
     text-align: center;
 /*    text-transform: uppercase;*/
-    top:250px;
+    top:200px;
     width: 30px;
 }
 #construction a{
@@ -196,8 +196,20 @@ body > footer a:hover{
 #construction span{
     display: block;
     opacity: 1.0;
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+    -ms-transform:rotate(-90deg);
 }
 
+.rotate90{
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+    -ms-transform:rotate(-90deg);
+}
 
 
 
