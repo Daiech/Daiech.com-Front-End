@@ -118,6 +118,7 @@ body > footer{
 body > footer a{
     color: #11B0AB;
     font-size: 12px;
+    margin-top: 15px;
     text-decoration: none;
 }
 body > footer a:hover{
@@ -142,7 +143,7 @@ body > footer a:hover{
     border-radius: 3px;
     display: inline-block;
     width: 100px;
-    margin: 0;
+    margin: 2px;
     padding: 0;
     padding-top: 5px;
 }
