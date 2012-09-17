@@ -115,6 +115,14 @@ body > header{
 body > footer{
     text-align: center;
 }
+body > footer a{
+    color: #11B0AB;
+    font-size: 12px;
+    text-decoration: none;
+}
+body > footer a:hover{
+    text-decoration: underline;
+}
 #body{
     
 }
